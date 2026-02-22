@@ -62,7 +62,7 @@
         "min_desktop_height_type": "pixels",
         "desktop_pixels_height": 600,
         "min_mobile_height_type": "pixels",
-        "mobile_pixels_height": 20,
+        "mobile_pixels_height": 50,
         "transparent_header": false,
         "transparent_header_text_color": "text",
         "transparent_header_highlighted_link_color": "background-1",
