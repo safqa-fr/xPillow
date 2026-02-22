@@ -700,9 +700,9 @@
         "after_image": "shopify://shop_images/after_xpillow_e5b15cdd-c1f1-4811-99a7-357671a045f2.png",
         "padding_top": 48,
         "padding_bottom": 48,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d"
@@ -829,16 +829,16 @@
         "mobile_arrows_position": "under",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_colors_background": "#f3f3f3",
         "custom_cards_gradient_background": "",
         "custom_cards_colors_heading": "#222126",
-        "custom_cards_colors_text": "#2E2A39"
+        "custom_cards_colors_text": "#2e2a39"
       }
     },
     "results_qJBxWp": {
@@ -896,9 +896,9 @@
         "atc_skip_cart": false,
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_accent": "#dd1d1d",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
@@ -1004,11 +1004,11 @@
         "others_3_logo_width": 90,
         "others_3_mobile_logo_width": 60,
         "checkmark_style": "regular",
-        "checkmark_color": "#53AF01",
-        "checkmark_bg_color": "#53AF01",
+        "checkmark_color": "#53af01",
+        "checkmark_bg_color": "#53af01",
         "x_style": "regular",
         "x_color": "#121212",
-        "x_bg_color": "#DBDBDB",
+        "x_bg_color": "#dbdbdb",
         "opposite_icon_colors": "original",
         "highlighted_color_scheme": "accent-1",
         "highlighted_separator_opacity": 0,
@@ -1019,16 +1019,16 @@
         "minimalistic_border_opacity": 16,
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_colors_highlighted_background": "#2E2A39",
-        "custom_colors_highlighted_text": "#FFFFFF",
-        "custom_colors_others_background": "#FFFFFF",
-        "custom_colors_others_text": "#2E2A39"
+        "custom_colors_highlighted_background": "#2e2a39",
+        "custom_colors_highlighted_text": "#ffffff",
+        "custom_colors_others_background": "#ffffff",
+        "custom_colors_others_text": "#2e2a39"
       }
     },
     "collapsible_content_krtLre": {
@@ -1129,7 +1129,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "",
             "text": "<p>“Didn’t expect much at first, but it honestly made a big difference.”</p>",
@@ -1142,7 +1142,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "",
             "text": "<p>“Super comfortable and feels really well designed.”</p>",
@@ -1155,7 +1155,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 4.5,
             "title": "",
             "text": "<p>“We stopped using regular pillows after this. Night and day.”</p>",
@@ -1168,7 +1168,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "",
             "text": "<p>“We noticed the difference the first night. Way more comfortable.”</p>",
@@ -1181,7 +1181,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "",
             "text": "<p>“The angle really helps. It feels more natural and supportive.”</p>",
@@ -1194,7 +1194,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "",
             "text": "<p>“Simple idea but huge impact. Definitely recommend.”</p>",
@@ -1207,7 +1207,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "",
             "text": "<p>“I didn’t expect such a difference. It instantly made things more comfortable and natural.”</p>",
@@ -1220,7 +1220,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "",
             "text": "<p>“We tried regular pillows before — nothing compares. The support is perfect.”</p>",
@@ -1233,7 +1233,7 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "",
             "text": "<p>“It feels premium, supportive, and actually works. Best purchase we made this year.”</p>",
@@ -1270,7 +1270,7 @@
         "subheading_font": "body",
         "star_color": "#00b67a",
         "bg_star_color": "#c8c8c8",
-        "star_symbol_color": "#fff",
+        "star_symbol_color": "#ffffff",
         "stars_rating": 5,
         "text": "",
         "cards_border_radius": 16,
@@ -1300,12 +1300,12 @@
         "mobile_arrows_position": "under",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_cards_colors_background": "#F3F3F3",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
         "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2E2A39"
+        "custom_cards_colors_text": "#2e2a39"
       }
     }
   },
