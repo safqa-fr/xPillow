@@ -1,0 +1,199 @@
+{% comment %}
+  Section: Videos "See it in action" (thumbnails + modal)
+{% endcomment %}
+
+<section id="sia-{{ section.id }}" class="sia">
+  <div class="sia__wrap">
+    {% if section.settings.heading != blank %}
+      <h2 class="sia__title">{{ section.settings.heading }}</h2>
+    {% endif %}
+    {% if section.settings.subheading != blank %}
+      <p class="sia__sub">{{ section.settings.subheading }}</p>
+    {% endif %}
+
+    <div class="sia__grid" role="list">
+      {% for block in section.blocks %}
+        <button
+          class="sia__card"
+          type="button"
+          role="listitem"
+          data-sia-open
+          data-video-mp4="{{ block.settings.video_mp4 | escape }}"
+          data-video-url="{{ block.settings.video_url | escape }}"
+          aria-label="Play video"
+          {{ block.shopify_attributes }}
+        >
+          <div class="sia__thumb">
+            {% if block.settings.poster != blank %}
+              <img
+                src="{{ block.settings.poster | image_url: width: 1200 }}"
+                alt="{{ block.settings.alt | escape }}"
+                loading="lazy"
+                width="1200"
+                height="675"
+              >
+            {% endif %}
+            <div class="sia__play" aria-hidden="true"><span>▶</span></div>
+          </div>
+          {% if block.settings.caption != blank %}
+            <div class="sia__cap">{{ block.settings.caption }}</div>
+          {% endif %}
+        </button>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="sia__modal" data-sia-modal aria-hidden="true">
+    <div class="sia__backdrop" data-sia-close></div>
+    <div class="sia__dialog" role="dialog" aria-modal="true" aria-label="Video">
+      <button class="sia__close" type="button" data-sia-close aria-label="Close">×</button>
+      <div class="sia__player"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+  #sia-{{ section.id }}{padding:40px 0}
+  #sia-{{ section.id }} .sia__wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+  #sia-{{ section.id }} .sia__title{font-size:28px;line-height:1.1;margin:0 0 8px}
+  #sia-{{ section.id }} .sia__sub{margin:0 0 18px;opacity:.8}
+
+  #sia-{{ section.id }} .sia__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+  @media (max-width: 860px){
+    #sia-{{ section.id }} .sia__grid{
+      grid-auto-flow:column;grid-auto-columns:80%;
+      grid-template-columns:none;overflow:auto;scroll-snap-type:x mandatory;
+      -webkit-overflow-scrolling:touch;padding-bottom:6px
+    }
+    #sia-{{ section.id }} .sia__card{scroll-snap-align:start}
+  }
+
+  #sia-{{ section.id }} .sia__card{border:0;background:transparent;padding:0;text-align:left;cursor:pointer}
+  #sia-{{ section.id }} .sia__thumb{
+    position:relative;border-radius:16px;overflow:hidden;aspect-ratio:16/9;background:#f2f2f2
+  }
+  #sia-{{ section.id }} .sia__thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  #sia-{{ section.id }} .sia__play{
+    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(to top, rgba(0,0,0,.35), rgba(0,0,0,.05));
+  }
+  #sia-{{ section.id }} .sia__play span{
+    width:58px;height:58px;border-radius:999px;display:flex;align-items:center;justify-content:center;
+    background:rgba(255,255,255,.92);font-size:20px;line-height:1
+  }
+  #sia-{{ section.id }} .sia__cap{margin-top:10px;font-size:14px;opacity:.9}
+
+  #sia-{{ section.id }} .sia__modal{position:fixed;inset:0;display:none;z-index:9999}
+  #sia-{{ section.id }} .sia__modal.is-open{display:block}
+  #sia-{{ section.id }} .sia__backdrop{position:absolute;inset:0;background:rgba(0,0,0,.65)}
+  #sia-{{ section.id }} .sia__dialog{
+    position:relative;max-width:980px;width:calc(100% - 24px);
+    margin:6vh auto 0;background:#000;border-radius:16px;overflow:hidden
+  }
+  #sia-{{ section.id }} .sia__close{
+    position:absolute;top:10px;right:10px;width:42px;height:42px;border-radius:999px;
+    border:0;background:rgba(255,255,255,.12);color:#fff;font-size:26px;cursor:pointer;z-index:2
+  }
+  #sia-{{ section.id }} .sia__player{aspect-ratio:16/9;width:100%;background:#000}
+  #sia-{{ section.id }} .sia__player iframe,
+  #sia-{{ section.id }} .sia__player video{width:100%;height:100%;display:block}
+</style>
+
+<script>
+(function(){
+  const root = document.getElementById('sia-{{ section.id }}');
+  if(!root) return;
+
+  const modal = root.querySelector('[data-sia-modal]');
+  const player = root.querySelector('.sia__player');
+  const openBtns = root.querySelectorAll('[data-sia-open]');
+  const closeEls = root.querySelectorAll('[data-sia-close]');
+
+  function isYouTube(url){ return /youtube\.com|youtu\.be/.test(url || ""); }
+  function isVimeo(url){ return /vimeo\.com/.test(url || ""); }
+
+  function makeEmbed(url){
+    if(isYouTube(url)){
+      let id = "";
+      try{
+        if(url.includes("youtu.be/")) id = url.split("youtu.be/")[1].split(/[?&]/)[0];
+        if(url.includes("watch?v=")) id = url.split("watch?v=")[1].split(/[?&]/)[0];
+        if(url.includes("/embed/")) id = url.split("/embed/")[1].split(/[?&]/)[0];
+      }catch(e){}
+      const src = "https://www.youtube.com/embed/" + id + "?autoplay=1&mute=1&playsinline=1&rel=0";
+      return `<iframe src="${src}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+    }
+    if(isVimeo(url)){
+      let id = "";
+      try{ id = url.split("vimeo.com/")[1].split(/[?&]/)[0]; }catch(e){}
+      const src = "https://player.vimeo.com/video/" + id + "?autoplay=1&muted=1&playsinline=1";
+      return `<iframe src="${src}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+    }
+    return `<iframe src="${url}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+  }
+
+  function openModal(mp4, url){
+    player.innerHTML = "";
+    if(mp4){
+      player.innerHTML = `<video src="${mp4}" autoplay muted loop playsinline controls></video>`;
+    } else if(url){
+      player.innerHTML = makeEmbed(url);
+    }
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.documentElement.style.overflow = 'hidden';
+  }
+
+  function closeModal(){
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+    player.innerHTML = "";
+    document.documentElement.style.overflow = '';
+  }
+
+  openBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      openModal(btn.getAttribute('data-video-mp4'), btn.getAttribute('data-video-url'));
+    });
+  });
+
+  closeEls.forEach(el => el.addEventListener('click', closeModal));
+  document.addEventListener('keydown', (e) => {
+    if(e.key === "Escape" && modal.classList.contains('is-open')) closeModal();
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Videos - See it in action",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Titre", "default": "See it in action" },
+    { "type": "text", "id": "subheading", "label": "Sous-titre", "default": "Over 2.3M Views" }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Vidéo",
+      "settings": [
+        { "type": "image_picker", "id": "poster", "label": "Thumbnail (image)" },
+        { "type": "text", "id": "alt", "label": "Alt", "default": "Video thumbnail" },
+        { "type": "text", "id": "caption", "label": "Texte sous la vidéo (optionnel)" },
+        { "type": "text", "id": "video_mp4", "label": "Lien .mp4 (Shopify Files recommandé)" },
+        { "type": "url", "id": "video_url", "label": "Lien YouTube/Vimeo (si pas de MP4)" }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Videos - See it in action",
+      "blocks": [
+        { "type": "video" },
+        { "type": "video" },
+        { "type": "video" }
+      ]
+    }
+  ]
+}
+{% endschema %}
