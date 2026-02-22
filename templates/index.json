@@ -33,7 +33,7 @@
             "text_alignment": "left",
             "color_scheme": "accent-1",
             "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
+            "text_alignment_mobile": "left",
             "custom_colors_background": "rgba(0,0,0,0)",
             "custom_gradient_background": "",
             "custom_colors_text": "#121212",
