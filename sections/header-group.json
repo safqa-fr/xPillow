@@ -124,7 +124,7 @@
         "logo_link": "",
         "logo_position": "middle-left",
         "menu": "main-menu",
-        "menu_type_desktop": "mega",
+        "menu_type_desktop": "drawer",
         "highlight_active_link": true,
         "highlighted_link_color_scheme": "accent-1",
         "products_mega_menu_links": "",
