@@ -79,83 +79,72 @@
         "padding_bottom": 50
       }
     },
-    "slideshow_fVBH3n": {
-      "type": "slideshow",
+    "image_banner_GHBfNA": {
+      "type": "image-banner",
       "blocks": {
-        "slide_eMwgeb": {
-          "type": "slide",
+        "rating_stars_HRFbLm": {
+          "type": "rating_stars",
           "settings": {
-            "image": "shopify://shop_images/xPillow-Hero-mobile.png",
-            "image_overlay_opacity": 0,
-            "heading": "Bring Back The Fire Between You",
-            "title_highlight_color": "#6d071a",
-            "heading_size": "h1",
-            "subheading": "Unlock deeper connection.",
-            "button_label": "Rediscover Your Connection",
-            "link": "shopify://products/xpillow-sweet-spot-pillow",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#000000",
-            "custom_colors_solid_button_background": "#6d071a",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#6d071a"
+            "rating": 4.8,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "Loved by 13,482+ Couples",
+            "size": 13,
+            "scroll_id": ""
           }
         },
-        "slide_fmxTxC": {
-          "type": "slide",
+        "heading_k3iHeb": {
+          "type": "heading",
           "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#FFFFFF",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
+            "title": "Bring Back The Fire Between You",
+            "title_highlight_color": "#6d071a",
+            "heading_size": "h2"
+          }
+        },
+        "text_rXEAFW": {
+          "type": "text",
+          "settings": {
+            "text": "Unlock deeper connection.",
+            "text_style": "body"
+          }
+        },
+        "buttons_mtEJtf": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "slide_eMwgeb",
-        "slide_fmxTxC"
+        "rating_stars_HRFbLm",
+        "heading_k3iHeb",
+        "text_rXEAFW",
+        "buttons_mtEJtf"
       ],
-      "name": "t:sections.slideshow.presets.name",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
+        "display_id": false,
         "visibility": "desktop-hidden",
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "desktop_pagination_position": "over",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "mobile_pagination_position": "under",
-        "accessibility_info": "Slideshow about our brand"
+        "image": "shopify://shop_images/xPillow-Hero-mobile.png",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "horizontal_ticker_86g3UG": {
@@ -331,7 +320,7 @@
   },
   "order": [
     "slideshow_hero_qJaBkA",
-    "slideshow_fVBH3n",
+    "image_banner_GHBfNA",
     "horizontal_ticker_86g3UG",
     "slideshow_hero_iGnamA",
     "newsletter_fWEYyL"
