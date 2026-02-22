@@ -300,8 +300,8 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
-            "skip_cart": false,
+            "show_dynamic_checkout": true,
+            "skip_cart": true,
             "uppercase_text": true,
             "icon_scale": 120,
             "icon_spacing": 10,
@@ -319,12 +319,12 @@
         "text_Y3TfJc": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 10,
-            "desktop_text_size": 14,
+            "mobile_text_size": 9,
+            "desktop_text_size": 13,
             "alignment": "left",
             "text_color": "#121212",
-            "text_1": "30-Day Money-Back Guarantee",
-            "text_2": "Discreet Shipping included",
+            "text_1": "<strong>30-Day Money-Back Guarantee</strong>",
+            "text_2": "<strong>Discreet Shipping included</strong>",
             "text_3": "",
             "icon_scale": 120,
             "icon_color": "#121212",
@@ -347,37 +347,52 @@
             "margin_bottom": 15
           }
         },
-        "e0a0b690-50df-4ca4-acfd-ce2980696cce": {
-          "type": "shipping_checkpoints",
+        "collapsible_tab_Lj4hdQ": {
+          "type": "collapsible_tab",
           "settings": {
-            "icon_1": "add_shopping_cart",
-            "filled_icon_1": false,
-            "top_text_1": "<strong>[start_date]</strong>",
-            "bottom_text_1": "Ordered",
-            "min_days_1": 0,
-            "max_days_1": 0,
-            "icon_2": "local_shipping",
-            "filled_icon_2": false,
-            "top_text_2": "<strong>[start_date] - [end_date]</strong>",
-            "bottom_text_2": "Order Ready",
-            "min_days_2": 1,
-            "max_days_2": 2,
-            "icon_3": "redeem",
-            "filled_icon_3": false,
-            "top_text_3": "<strong>[start_date] - [end_date]</strong>",
-            "bottom_text_3": "Delivered",
-            "min_days_3": 10,
-            "max_days_3": 12,
-            "icon_4": "",
-            "filled_icon_4": false,
-            "top_text_4": "",
-            "bottom_text_4": "",
-            "date_format": "mm_dd",
-            "days_labels": "Mon, Tue, Wed, Thu, Fri, Sat, Sun",
-            "months_labels": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
-            "color_scheme": "inverse",
-            "margin_top": 24,
-            "margin_bottom": 24
+            "heading": "What makes xPillow different",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>xPillow is engineered with a precise 27° incline to support natural alignment, reduce strain, and make positioning effortless.</p><p>Small adjustment. Massive difference.</p><p>When your body feels supported, comfort increases, movement becomes easier, and connection happens naturally.</p>",
+            "page": "",
+            "margin_top": 18,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_BKMDBG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why couples choose xPillow",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>The firm supportive core keeps its shape and delivers consistent lift exactly where it’s needed — no awkward repositioning, no discomfort, no effort.</p><p>It helps support the hips and lower back while improving angles that feel more natural for both partners.</p><p>The result is a smoother, more comfortable experience that feels intuitive instead of forced.</p>",
+            "page": "",
+            "margin_top": 18,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_LNgMtk": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Designed for real life",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Made with premium memory foam and a soft removable cover, xPillow blends performance with a discreet design that fits naturally into your bedroom.</p><p>No complicated setup.<br/><br/>No learning curve.<br/><br/>Just better comfort instantly.</p>",
+            "page": "",
+            "margin_top": 18,
+            "margin_bottom": 0
           }
         },
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
@@ -432,7 +447,9 @@
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
         "buy_buttons",
         "text_Y3TfJc",
-        "e0a0b690-50df-4ca4-acfd-ce2980696cce",
+        "collapsible_tab_Lj4hdQ",
+        "collapsible_tab_BKMDBG",
+        "collapsible_tab_LNgMtk",
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
         "description"
       ],
