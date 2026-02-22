@@ -688,7 +688,7 @@
         "video_muted_autoplay": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "row_heading_size": "medium",
+        "row_heading_size": "small",
         "collapse_icon": "carret",
         "display_top_border": true,
         "padding_top": 32,
