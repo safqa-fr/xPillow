@@ -486,6 +486,9 @@
       "delivery_options": {
         "shipping_address": "Shipping Address"
       }
+    },
+    "links": {
+      "powered_by_shopify": " "
     }
   }
 }
