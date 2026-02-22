@@ -319,8 +319,8 @@
         "text_Y3TfJc": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 14,
-            "desktop_text_size": 16,
+            "mobile_text_size": 10,
+            "desktop_text_size": 14,
             "alignment": "left",
             "text_color": "#121212",
             "text_1": "30-Day Money-Back Guarantee",
