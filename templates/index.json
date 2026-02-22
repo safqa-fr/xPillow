@@ -9,45 +9,46 @@
  */
 {
   "sections": {
-    "cfca4268-6358-426c-98ab-d292aeef11e5": {
+    "slideshow_CWGMXh": {
       "type": "slideshow",
       "blocks": {
-        "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1": {
+        "slide_rf7LkE": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_Site_Web_1.png",
-            "mobile_image": "shopify://shop_images/Sans_titre_Site_Web_1.png",
+            "image": "shopify://shop_images/Sans_titre_Site_Web.png",
+            "mobile_image": "shopify://shop_images/xPillow-Hero-mobile.png",
             "image_overlay_opacity": 0,
             "heading": "Bring Back The Fire Between You",
-            "title_highlight_color": "rgba(0,0,0,0)",
+            "title_highlight_color": "#8c5e3a",
             "heading_size": "h2",
             "subheading": "Designed to enhance closeness, deepen connection, and unlock the experience you’ve been missing.",
             "button_label": "Rediscover Your Connection",
             "link": "shopify://products/xpillow-sweet-spot-pillow",
             "button_style_secondary": false,
             "atc_button_label": "",
-            "atc_product": "xpillow-sweet-spot-pillow",
-            "atc_skip_cart": true,
-            "box_align": "middle-left",
-            "show_text_box": false,
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "top-left",
+            "show_text_box": true,
             "text_alignment": "left",
-            "color_scheme": "accent-1",
+            "color_scheme": "custom",
             "transparent_container_color": "white",
-            "text_alignment_mobile": "left",
+            "text_alignment_mobile": "center",
             "custom_colors_background": "rgba(0,0,0,0)",
             "custom_gradient_background": "",
-            "custom_colors_text": "#121212",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#121212",
-            "custom_colors_outline_button": "#dd1d1d"
+            "custom_colors_text": "#2E2A39",
+            "custom_colors_solid_button_background": "#8c5e3a",
+            "custom_colors_solid_button_text": "#f4efeaff",
+            "custom_colors_outline_button": "#8c5e3a"
           }
         }
       },
       "block_order": [
-        "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1"
+        "slide_rf7LkE"
       ],
+      "name": "t:sections.slideshow.presets.name",
       "settings": {
-        "visibility": "mobile-hidden",
+        "visibility": "always-display",
         "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "dots",
@@ -55,351 +56,185 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "show_text_below": true,
-        "mobile_pagination_position": "over",
+        "mobile_pagination_position": "under",
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "d2d3417b-e92f-428c-b221-5bceffb552be": {
-      "type": "comparison-table",
+    "horizontal_ticker_86g3UG": {
+      "type": "horizontal-ticker",
       "blocks": {
-        "row_frqit4": {
-          "type": "row",
+        "text_kJDwaY": {
+          "type": "text",
           "settings": {
-            "benefit": "<strong>Benefit</strong>",
-            "us": true,
-            "others": false,
-            "others_2": false,
-            "others_3": false
+            "title": "PREMIUM QUALITY"
           }
         },
-        "row_a9Qa8J": {
-          "type": "row",
+        "text_kzfQQf": {
+          "type": "text",
           "settings": {
-            "benefit": "<strong>Benefit</strong>",
-            "us": true,
-            "others": false,
-            "others_2": false,
-            "others_3": false
+            "title": "SATISFACTION GUARANTED"
           }
         },
-        "row_NAEbjV": {
-          "type": "row",
+        "text_acJAbi": {
+          "type": "text",
           "settings": {
-            "benefit": "<strong>Benefit</strong>",
-            "us": true,
-            "others": false,
-            "others_2": false,
-            "others_3": false
+            "title": "FAST SHIPPING"
           }
         }
       },
       "block_order": [
-        "row_frqit4",
-        "row_a9Qa8J",
-        "row_NAEbjV"
+        "text_kJDwaY",
+        "text_kzfQQf",
+        "text_acJAbi"
       ],
+      "name": "Horizontal Ticker",
       "settings": {
-        "display_id": false,
         "visibility": "always-display",
-        "title": "Comparison table",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "text": "<p>Talk about how and why is your brand better than the others.</p>",
-        "button_label": "",
-        "link": "",
-        "button_style_secondary": false,
-        "atc_button_label": "",
-        "atc_product": "",
-        "atc_skip_cart": false,
-        "desktop_alignment": "center",
-        "mobile_alignment": "center",
-        "color_scheme": "background-1",
-        "layout": "table_second",
-        "style": "centered",
-        "corner_radius": 20,
-        "number_of_competitors": 1,
-        "us_label": "[shop_name]",
-        "us_label_size": 18,
-        "logo_width": 90,
-        "mobile_logo_width": 60,
-        "others_label": "Others",
-        "others_label_size": 18,
-        "others_logo_width": 90,
-        "others_mobile_logo_width": 60,
-        "others_2_label": "Competitor 2",
-        "others_2_label_size": 18,
-        "others_2_logo_width": 90,
-        "others_2_mobile_logo_width": 60,
-        "others_3_label": "Competitor 3",
-        "others_3_label_size": 18,
-        "others_3_logo_width": 90,
-        "others_3_mobile_logo_width": 60,
-        "checkmark_style": "regular",
-        "checkmark_color": "#ffffff",
-        "checkmark_bg_color": "#53af01",
-        "x_style": "regular",
-        "x_color": "#121212",
-        "x_bg_color": "#dbdbdb",
-        "opposite_icon_colors": "original",
-        "highlighted_color_scheme": "accent-1",
-        "highlighted_separator_opacity": 0,
-        "highlighted_overlay_opacity": 0,
-        "other_cells_color_scheme": "background-1",
-        "regular_separator_opacity": 10,
-        "regular_overlay_opacity": 0,
-        "minimalistic_border_opacity": 16,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
+        "speed": 3,
+        "direction": "normal",
+        "stop_on_hover": false,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "color_scheme": "accent-1",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_reviews_width": 300,
+        "desktop_reviews_width": 400,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_colors_highlighted_background": "#2e2a39",
-        "custom_colors_highlighted_text": "#ffffff",
-        "custom_colors_others_background": "#ffffff",
-        "custom_colors_others_text": "#2e2a39"
+        "custom_colors_text": "#2E2A39"
       }
     },
-    "6aa09428-a417-429d-9159-a4e8afd49590": {
-      "type": "icon-bar",
+    "slideshow_hero_iGnamA": {
+      "type": "slideshow-hero",
       "blocks": {
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-1": {
-          "type": "column",
+        "slide_mdapgb": {
+          "type": "slide",
           "settings": {
-            "icon": "check_circle",
-            "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
-          }
-        },
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-2": {
-          "type": "column",
-          "settings": {
-            "icon": "check_circle",
-            "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
-          }
-        },
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-3": {
-          "type": "column",
-          "settings": {
-            "icon": "check_circle",
-            "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
-          }
-        },
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-4": {
-          "type": "column",
-          "settings": {
-            "icon": "check_circle",
-            "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "desktop_overlay_color": "#000000",
+            "desktop_overlay_opacity": 0,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 0,
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "heading_prefix": "",
+            "heading": "Money-Back Gurantee",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1",
+            "heading_suffix": "",
+            "heading_prefix_size": "h5",
+            "text": "<h5>We're so confident in the quality of our product that we offer a satisfaction guarantee.</h5><h5>If you're not completely satisfied with your purchase, simply return the item within 30 days for a full refund.<br/><br/></h5>",
+            "button_label_1": "Rediscover Your Connection",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "color_scheme": "background-1",
+            "full_page_width": false,
+            "content_max_width": "unlimited",
+            "content_pixels_max_width": 500,
+            "content_percentage_max_width": 50,
+            "content_vertical_position": "center",
+            "content_horizontal_position": "center",
+            "content_text_alignment": "center",
+            "mobile_content_vertical_position": "center",
+            "mobile_content_text_alignment": "center",
+            "custom_colors_text": "#2E2A39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
           }
         }
       },
       "block_order": [
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-1",
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-2",
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-3",
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-4"
+        "slide_mdapgb"
       ],
+      "name": "Slideshow hero",
       "settings": {
-        "display_id": false,
         "visibility": "always-display",
-        "title": "Icon bar",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "text": "",
-        "color_scheme": "background-1",
-        "icon_layout": "vertical",
-        "icon_size": "medium",
-        "icon_color": "accent-1",
-        "cards_color_scheme": "background-1",
-        "type": "slide",
+        "min_desktop_height_type": "pixels",
+        "desktop_pixels_height": 600,
+        "min_mobile_height_type": "pixels",
+        "mobile_pixels_height": 400,
+        "transparent_header": false,
+        "transparent_header_text_color": "text",
+        "transparent_header_highlighted_link_color": "background-1",
+        "transparent_header_hover_link_color": "accent-1",
+        "transparent_header_logo": "main",
+        "hide_announcement_bars": false,
+        "slider_type": "loop",
+        "drag": false,
         "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 4,
-        "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 40,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "columns_mobile": "1",
-        "slider_mobile": true,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
-        "mobile_arrows_position": "under",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_cards_colors_background": "#f3f3f3",
-        "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2e2a39"
+        "autoplay_speed": 10,
+        "enable_dots": true,
+        "dots_color_scheme": "background-1",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
-    "0f1fc9e4-bc4c-4052-9747-62d1f8472caa": {
-      "type": "results",
+    "newsletter_fWEYyL": {
+      "type": "newsletter",
       "blocks": {
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1": {
-          "type": "row",
+        "heading_3LznUJ": {
+          "type": "heading",
           "settings": {
-            "percentage": 90,
-            "row_text": "<p>Noticed that this product has significantly improved their life.</p>"
+            "title": "Subscribe to our emails",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1"
           }
         },
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2": {
-          "type": "row",
+        "paragraph_CtgjDP": {
+          "type": "paragraph",
           "settings": {
-            "percentage": 90,
-            "row_text": "<p>Noticed that this product has significantly improved their life.</p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3": {
-          "type": "row",
-          "settings": {
-            "percentage": 90,
-            "row_text": "<p>Noticed that this product has significantly improved their life.</p>"
-          }
+        "email_form_UmBghf": {
+          "type": "email_form",
+          "settings": {}
         }
       },
       "block_order": [
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1",
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2",
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3"
+        "heading_3LznUJ",
+        "paragraph_CtgjDP",
+        "email_form_UmBghf"
       ],
+      "name": "t:sections.newsletter.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Results",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "text": "<p>Talk about results of your customers and how your product improved their life.</p>",
-        "video_muted_autoplay": true,
-        "color_scheme": "background-1",
-        "layout": "results_second",
-        "results_headline": "Results heading",
-        "results_title_highlight_color": "#6d388b",
-        "results_headline_size": "h2",
-        "results_text": "",
-        "results_headline_alignment": "left",
-        "caption": "<p>Caption about the results and/or link for their proof.</p>",
-        "button_label": "",
-        "link": "",
+        "button_type": "solid",
+        "button_label": "Sign up",
         "button_style_secondary": false,
-        "atc_button_label": "",
-        "atc_product": "",
-        "atc_skip_cart": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_accent": "#dd1d1d",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
-      }
-    },
-    "contact_form_WHP8G7": {
-      "type": "contact-form",
-      "blocks": {
-        "field_row_fNxBGi": {
-          "type": "field_row",
-          "settings": {
-            "input_1_enabled": true,
-            "input_1_type": "name",
-            "input_1_required": false,
-            "input_1_error_message": "This field is required",
-            "input_1_custom_name": "Custom input name",
-            "input_2_enabled": true,
-            "input_2_type": "email",
-            "input_2_required": false,
-            "input_2_error_message": "This field is required",
-            "input_2_custom_name": "Custom input name"
-          }
-        },
-        "field_row_f84rat": {
-          "type": "field_row",
-          "settings": {
-            "input_1_enabled": true,
-            "input_1_type": "phone",
-            "input_1_required": false,
-            "input_1_error_message": "This field is required",
-            "input_1_custom_name": "Custom input name",
-            "input_2_enabled": false,
-            "input_2_type": "custom",
-            "input_2_required": false,
-            "input_2_error_message": "This field is required",
-            "input_2_custom_name": "Custom input name"
-          }
-        },
-        "textarea_NbxXax": {
-          "type": "textarea",
-          "settings": {
-            "input_type": "comment",
-            "input_required": false,
-            "input_error_message": "This field is required",
-            "input_custom_name": "Custom name"
-          }
-        }
-      },
-      "block_order": [
-        "field_row_fNxBGi",
-        "field_row_f84rat",
-        "textarea_NbxXax"
-      ],
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Contact form",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "button_full_width": true,
         "color_scheme": "background-1",
-        "success_icon": "check_circle",
-        "success_icon_filled": false,
-        "success_text_color": "#28c100",
-        "success_bg_color": "#f2ffed",
-        "success_border_radius": 8,
-        "success_border_width": 1,
-        "success_border_color": "#28c100",
-        "errors_icon": "error",
-        "errors_icon_filled": false,
-        "errors_text_color": "#ff0000",
-        "errors_bg_color": "#fff5f5",
-        "errors_border_radius": 8,
-        "errors_border_width": 1,
-        "errors_border_color": "#ff0000",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
+        "custom_colors_text": "#2E2A39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff"
       }
     }
   },
   "order": [
-    "cfca4268-6358-426c-98ab-d292aeef11e5",
-    "d2d3417b-e92f-428c-b221-5bceffb552be",
-    "6aa09428-a417-429d-9159-a4e8afd49590",
-    "0f1fc9e4-bc4c-4052-9747-62d1f8472caa",
-    "contact_form_WHP8G7"
+    "slideshow_CWGMXh",
+    "horizontal_ticker_86g3UG",
+    "slideshow_hero_iGnamA",
+    "newsletter_fWEYyL"
   ]
 }
