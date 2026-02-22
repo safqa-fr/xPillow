@@ -11,22 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "section_divider_WeQN9N": {
-      "type": "section-divider",
-      "name": "Section divider",
-      "settings": {
-        "visibility": "always-display",
-        "shape": "waves_3",
-        "flip_horizontal": false,
-        "flip_vertical": false,
-        "shape_color": "custom",
-        "custom_shape_color": "#6d071a",
-        "background_color": "background-1",
-        "custom_background_color": "#FFFFFF",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -91,7 +75,6 @@
     }
   },
   "order": [
-    "section_divider_WeQN9N",
     "footer"
   ]
 }
