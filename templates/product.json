@@ -70,8 +70,8 @@
         "text_C9e8xL": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 14,
-            "desktop_text_size": 16,
+            "mobile_text_size": 13,
+            "desktop_text_size": 15,
             "alignment": "left",
             "text_color": "#121212",
             "text_1": "27° angle = Perfect position easily",
@@ -101,8 +101,8 @@
         "text_Fk6bna": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 14,
-            "desktop_text_size": 16,
+            "mobile_text_size": 13,
+            "desktop_text_size": 15,
             "alignment": "left",
             "text_color": "#121212",
             "text_1": "No awkward adjustments",
@@ -132,8 +132,8 @@
         "text_fL94JY": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 14,
-            "desktop_text_size": 16,
+            "mobile_text_size": 13,
+            "desktop_text_size": 15,
             "alignment": "left",
             "text_color": "#121212",
             "text_1": "Hip & lower back support",
@@ -163,8 +163,8 @@
         "text_6mRegq": {
           "type": "text",
           "settings": {
-            "mobile_text_size": 14,
-            "desktop_text_size": 16,
+            "mobile_text_size": 13,
+            "desktop_text_size": 15,
             "alignment": "left",
             "text_color": "#121212",
             "text_1": "Discreet design for everyday use",
