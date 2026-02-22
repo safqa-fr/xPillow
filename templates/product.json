@@ -297,6 +297,16 @@
             "margin_bottom": 15
           }
         },
+        "inventory_X7NB6Y": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -445,6 +455,7 @@
         "text_6mRegq",
         "price",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
+        "inventory_X7NB6Y",
         "buy_buttons",
         "text_Y3TfJc",
         "collapsible_tab_Lj4hdQ",
@@ -503,6 +514,77 @@
         "mobile_padding_bottom": 16,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36
+      }
+    },
+    "horizontal_ticker_Rndzrg": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "image_JFzjPc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cosmopolitan.webp"
+          }
+        },
+        "image_iHaacr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BuzzFeed.webp"
+          }
+        },
+        "image_xBcLby": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WomensHealth.webp"
+          }
+        },
+        "image_3Ji3tA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MensHealth.webp"
+          }
+        },
+        "image_P93JGN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GQ.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_JFzjPc",
+        "image_iHaacr",
+        "image_xBcLby",
+        "image_3Ji3tA",
+        "image_P93JGN"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "direction": "normal",
+        "stop_on_hover": false,
+        "mobile_spacing": 60,
+        "desktop_spacing": 100,
+        "color_scheme": "accent-1",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 26,
+        "desktop_image_height": 40,
+        "mobile_reviews_width": 300,
+        "desktop_reviews_width": 400,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39"
       }
     },
     "related-products": {
@@ -619,6 +701,7 @@
   },
   "order": [
     "main",
+    "horizontal_ticker_Rndzrg",
     "related-products",
     "collapsible_content_krtLre"
   ]
