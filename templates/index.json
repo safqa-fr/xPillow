@@ -150,7 +150,7 @@
     "horizontal_ticker_86g3UG": {
       "type": "horizontal-ticker",
       "blocks": {
-        "text_with_icon_ekTBbH": {
+        "text_with_icon_Nq6JGq": {
           "type": "text_with_icon",
           "settings": {
             "block_width": "unlimited",
@@ -160,13 +160,13 @@
             "desktop_text_size": 16,
             "alignment": "left",
             "mobile_alignment": "left",
-            "text_color": "#121212",
-            "text_1": "Text with icon",
+            "text_color": "#f4efea",
+            "text_1": "FAST SHIPPING",
             "text_2": "",
             "text_3": "",
             "icon_scale": 120,
-            "icon_color": "#121212",
-            "icon_1": "verified_user",
+            "icon_color": "#ffcc00",
+            "icon_1": "local_shipping",
             "filled_icon_1": false,
             "icon_2": "check_circle",
             "filled_icon_2": false,
@@ -182,30 +182,75 @@
             "border_color": "#b7b7b7"
           }
         },
-        "text_kJDwaY": {
-          "type": "text",
+        "text_with_icon_mLHY8n": {
+          "type": "text_with_icon",
           "settings": {
-            "title": "PREMIUM QUALITY"
+            "block_width": "unlimited",
+            "block_mobile_width": 300,
+            "block_desktop_width": 400,
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "mobile_alignment": "left",
+            "text_color": "#f4efea",
+            "text_1": "SATISFACTION GUARANTED",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#ffcc00",
+            "icon_1": "check_circle",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7"
           }
         },
-        "text_kzfQQf": {
-          "type": "text",
+        "text_with_icon_iCewwE": {
+          "type": "text_with_icon",
           "settings": {
-            "title": "SATISFACTION GUARANTED"
-          }
-        },
-        "text_acJAbi": {
-          "type": "text",
-          "settings": {
-            "title": "FAST SHIPPING"
+            "block_width": "unlimited",
+            "block_mobile_width": 300,
+            "block_desktop_width": 400,
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "mobile_alignment": "left",
+            "text_color": "#f4efea",
+            "text_1": "PREMIUM QUALITY",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#ffcc00",
+            "icon_1": "verified_user",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7"
           }
         }
       },
       "block_order": [
-        "text_with_icon_ekTBbH",
-        "text_kJDwaY",
-        "text_kzfQQf",
-        "text_acJAbi"
+        "text_with_icon_Nq6JGq",
+        "text_with_icon_mLHY8n",
+        "text_with_icon_iCewwE"
       ],
       "name": "Horizontal Ticker",
       "settings": {
@@ -275,7 +320,7 @@
             "custom_colors_text": "#000000",
             "custom_colors_solid_button_background": "#6d071a",
             "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#6d071a"
+            "custom_colors_outline_button": "rgba(0,0,0,0)"
           }
         }
       },
@@ -303,6 +348,96 @@
         "dots_color_scheme": "background-1",
         "padding_top": 50,
         "padding_bottom": 50
+      }
+    },
+    "collapsible_content_PB3kaV": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_gTNgqP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if my partner thinks it's weird?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Most partners are amazed by the increased comfort and support. We focus on wellness and physical comfort first the intimacy benefits naturally follow. It's about removing barriers, not adding awkwardness.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AYeA76": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if i'm not satisfied with the results?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>We offer a 30 day satisfaction guarantee. If the pillow doesn't transform your comfort and experience as promised, return it for a full refund. We're that confident you'll love it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PaAjQG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do i clean maintain it?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Super easy! The premium cover is machine-washable, and the water-resistant core wipes clean easily. It's designed for regular use and maintains its shape wash after wash.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_i6i446": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is this different from regular pillows",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Regular pillows compress and lose shape under pressure. Our xPillow foam maintains perfect support even during dynamic movement, ensuring consistent angles every time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6MmKia": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will this look obvious in my bedroom?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Absolutely not. We specifically designed it to complement bedroom décor with elegant aesthetics. Many customers use it as an accent pillow when not in use - no one knows its true purpose.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_gTNgqP",
+        "collapsible_row_AYeA76",
+        "collapsible_row_PaAjQG",
+        "collapsible_row_i6i446",
+        "collapsible_row_6MmKia"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "<strong>FAQ</strong>",
+        "title_highlight_color": "#6d071a",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "carret",
+        "display_top_border": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_contaner_colors_background": "#FFFFFF",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2E2A39"
       }
     },
     "newsletter_fWEYyL": {
@@ -356,6 +491,7 @@
     "image_banner_GHBfNA",
     "horizontal_ticker_86g3UG",
     "slideshow_hero_iGnamA",
+    "collapsible_content_PB3kaV",
     "newsletter_fWEYyL"
   ]
 }
