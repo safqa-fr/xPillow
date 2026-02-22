@@ -112,8 +112,8 @@
         "buttons_mtEJtf": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Rediscover Your Connection",
+            "button_link_1": "shopify://products/xpillow-sweet-spot-pillow",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
