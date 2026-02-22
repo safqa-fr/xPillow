@@ -15,11 +15,11 @@
         "slide_rf7LkE": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_Site_Web.png",
+            "image": "shopify://shop_images/Sans_titre_Site_Web_3448a9be-c65c-4dfd-8294-50b6e1252cb8.png",
             "mobile_image": "shopify://shop_images/xPillow-Hero-mobile.png",
             "image_overlay_opacity": 0,
             "heading": "Bring Back The Fire Between You",
-            "title_highlight_color": "#8c5e3a",
+            "title_highlight_color": "#6d071a",
             "heading_size": "h2",
             "subheading": "Designed to enhance closeness, deepen connection, and unlock the experience you’ve been missing.",
             "button_label": "Rediscover Your Connection",
@@ -36,10 +36,10 @@
             "text_alignment_mobile": "center",
             "custom_colors_background": "rgba(0,0,0,0)",
             "custom_gradient_background": "",
-            "custom_colors_text": "#2E2A39",
-            "custom_colors_solid_button_background": "#8c5e3a",
-            "custom_colors_solid_button_text": "#f4efeaff",
-            "custom_colors_outline_button": "#8c5e3a"
+            "custom_colors_text": "#000000",
+            "custom_colors_solid_button_background": "#6d071a",
+            "custom_colors_solid_button_text": "#f4efea",
+            "custom_colors_outline_button": "#6d071a"
           }
         }
       },
@@ -112,9 +112,9 @@
         "mobile_padding_bottom": 12,
         "desktop_padding_top": 16,
         "desktop_padding_bottom": 16,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39"
+        "custom_colors_text": "#2e2a39"
       }
     },
     "slideshow_hero_iGnamA": {
@@ -131,7 +131,7 @@
             "sound_btn_color_scheme": "inverse",
             "heading_prefix": "",
             "heading": "Money-Back Gurantee",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1",
             "heading_suffix": "",
             "heading_prefix_size": "h5",
@@ -152,7 +152,7 @@
             "content_text_alignment": "center",
             "mobile_content_vertical_position": "center",
             "mobile_content_text_alignment": "center",
-            "custom_colors_text": "#2E2A39",
+            "custom_colors_text": "#2e2a39",
             "custom_colors_solid_button_background": "#dd1d1d",
             "custom_colors_solid_button_text": "#ffffff",
             "custom_colors_outline_button": "#dd1d1d"
@@ -192,7 +192,7 @@
           "type": "heading",
           "settings": {
             "title": "Subscribe to our emails",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
         },
@@ -223,9 +223,9 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff"
       }
