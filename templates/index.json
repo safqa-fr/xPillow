@@ -58,8 +58,8 @@
       "name": "Slideshow hero",
       "settings": {
         "visibility": "mobile-hidden",
-        "min_desktop_height_type": "100vh",
-        "desktop_pixels_height": 400,
+        "min_desktop_height_type": "pixels",
+        "desktop_pixels_height": 1100,
         "min_mobile_height_type": "autofit",
         "mobile_pixels_height": 50,
         "transparent_header": false,
