@@ -358,6 +358,265 @@
         "custom_colors_outline_button": "#dd1d1d"
       }
     },
+    "multicolumn_8q87mc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kUkjbR": {
+          "type": "column",
+          "settings": {
+            "video": "shopify://files/videos/Avis 1.mp4",
+            "muted_autoplay": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_E3Rq4F": {
+          "type": "column",
+          "settings": {
+            "video": "shopify://files/videos/Avis 2.mp4",
+            "muted_autoplay": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_96VMyt": {
+          "type": "column",
+          "settings": {
+            "video": "shopify://files/videos/Avis 4.mp4",
+            "muted_autoplay": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6GDLqH": {
+          "type": "column",
+          "settings": {
+            "video": "shopify://files/videos/Avis 3.mp4",
+            "muted_autoplay": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mXKJ6L": {
+          "type": "column",
+          "settings": {
+            "video": "shopify://files/videos/Avis 5.mp4",
+            "muted_autoplay": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_kUkjbR",
+        "column_E3Rq4F",
+        "column_96VMyt",
+        "column_6GDLqH",
+        "column_mXKJ6L"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "<strong>⭐⭐⭐⭐⭐Loved by 13,482+ Couples</strong>",
+        "title_highlight_color": "#6d071a",
+        "heading_size": "h2",
+        "button_label": "",
+        "button_link": "",
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "color_scheme": "background-1",
+        "cards_color_scheme": "bg-overlay",
+        "cards_corner_radius": 20,
+        "stretch_cards": false,
+        "stretched_cards_content_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "media_position": "top",
+        "column_alignment": "center",
+        "desktop_heading_size": 24,
+        "mobile_heading_size": 22,
+        "desktop_text_size": 16,
+        "mobile_text_size": 15,
+        "desktop_text_top_margin": 10,
+        "mobile_text_top_margin": 10,
+        "desktop_container_padding_y": 24,
+        "desktop_container_padding_x": 24,
+        "mobile_container_padding_y": 24,
+        "mobile_container_padding_x": 24,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": true,
+        "columns_desktop": 3,
+        "slider_desktop": true,
+        "per_move_desktop": 3,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_heading": "#222126",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "comparison_table_7a6yEz": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_cVxpan": {
+          "type": "row",
+          "settings": {
+            "benefit": "<strong>Sparks Natural Desire</strong>",
+            "us": true,
+            "others": false,
+            "others_2": false,
+            "others_3": false
+          }
+        },
+        "row_e9nMYD": {
+          "type": "row",
+          "settings": {
+            "benefit": "<strong>Perfect firmness</strong>",
+            "us": true,
+            "others": false,
+            "others_2": false,
+            "others_3": false
+          }
+        },
+        "row_RhgMVm": {
+          "type": "row",
+          "settings": {
+            "benefit": "<strong>Washable cover for easy cleaning</strong>",
+            "us": true,
+            "others": false,
+            "others_2": false,
+            "others_3": false
+          }
+        },
+        "row_7QLhUi": {
+          "type": "row",
+          "settings": {
+            "benefit": "<strong>Super lightweight & travel-ready</strong>",
+            "us": true,
+            "others": false,
+            "others_2": false,
+            "others_3": false
+          }
+        },
+        "row_QKXnRC": {
+          "type": "row",
+          "settings": {
+            "benefit": "<strong>Money Saving</strong>",
+            "us": true,
+            "others": false,
+            "others_2": false,
+            "others_3": false
+          }
+        }
+      },
+      "block_order": [
+        "row_cVxpan",
+        "row_e9nMYD",
+        "row_RhgMVm",
+        "row_7QLhUi",
+        "row_QKXnRC"
+      ],
+      "name": "Comparison table",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "<strong>Product Features</strong>",
+        "title_highlight_color": "#6d071a",
+        "heading_size": "h1",
+        "text": "<p>Every Has a Purpose. We engineered everything to enhance intimate comfort and connection. Here's how.</p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "desktop_alignment": "center",
+        "mobile_alignment": "center",
+        "color_scheme": "background-1",
+        "layout": "table_second",
+        "style": "classic",
+        "corner_radius": 20,
+        "number_of_competitors": 1,
+        "us_label": "xPillow",
+        "us_label_size": 18,
+        "logo_width": 90,
+        "mobile_logo_width": 60,
+        "others_label": "Others",
+        "others_label_size": 18,
+        "others_logo_width": 90,
+        "others_mobile_logo_width": 60,
+        "others_2_label": "Competitor 2",
+        "others_2_label_size": 18,
+        "others_2_logo_width": 90,
+        "others_2_mobile_logo_width": 60,
+        "others_3_label": "Competitor 3",
+        "others_3_label_size": 18,
+        "others_3_logo_width": 90,
+        "others_3_mobile_logo_width": 60,
+        "checkmark_style": "regular",
+        "checkmark_color": "#53af01",
+        "checkmark_bg_color": "#53af01",
+        "x_style": "regular",
+        "x_color": "#121212",
+        "x_bg_color": "#dbdbdb",
+        "opposite_icon_colors": "original",
+        "highlighted_color_scheme": "accent-1",
+        "highlighted_separator_opacity": 0,
+        "highlighted_overlay_opacity": 0,
+        "other_cells_color_scheme": "background-1",
+        "regular_separator_opacity": 10,
+        "regular_overlay_opacity": 0,
+        "minimalistic_border_opacity": 16,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_colors_highlighted_background": "#2e2a39",
+        "custom_colors_highlighted_text": "#ffffff",
+        "custom_colors_others_background": "#ffffff",
+        "custom_colors_others_text": "#2e2a39"
+      }
+    },
     "collapsible_content_PB3kaV": {
       "type": "collapsible-content",
       "blocks": {
@@ -511,6 +770,155 @@
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff"
       }
+    },
+    "content_tabs_tDw8nE": {
+      "type": "content-tabs",
+      "blocks": {
+        "tab_NUbTqq": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "xPillow® Product Features",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1",
+            "text": "<h3><strong>Ergonomic Design & Angle</strong></h3><ul><li>Unique <strong>27° optimized incline</strong> designed to support natural body positioning<br/></li><li>Ergonomic <strong>wedge-shaped design</strong> for stable, balanced support<br/></li><li>Helps maintain a comfortable angle without slipping or collapsing<br/></li></ul><h3><strong>Foam & Support</strong></h3><ul><li><strong>High-density memory foam core</strong> for firm yet comfortable support<br/></li><li>Contours to the body while maintaining its shape<br/></li><li>Designed to resist sagging, even with repeated use<br/></li></ul><h3><strong>Comfort & Materials</strong></h3><ul><li><strong>Premium soft-touch cover</strong>, breathable and skin-friendly<br/></li><li><strong>Removable, machine-washable cover</strong> for easy care<br/></li><li><strong>Non-slip base</strong> to keep the pillow securely in place<br/></li></ul><h3><strong>Design & Practical Details</strong></h3><ul><li>Discreet, modern design that blends easily into any bedroom<br/></li><li><strong>Integrated side handles</strong> for easy repositioning<br/></li><li>Carefully sized to provide support without being bulky<br/></li></ul><h3><strong>Versatility & Use</strong></h3><ul><li>Suitable for lying or semi-seated positions<br/></li><li>Can be used as a <strong>back, waist, or hip support pillow</strong><br/></li><li>Ideal for relaxation, comfort, and positioning support<br/></li><li>Suitable for different body types<br/></li></ul><h3><strong>Quality & Safety</strong></h3><ul><li>Made from <strong>non-toxic, durable materials</strong><br/></li><li>Designed for <strong>long-lasting comfort and structural stability</strong><br/></li><li>Comfort product – <strong>non-medical use</strong></li></ul>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "half",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "center",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-center"
+          }
+        },
+        "tab_Hp7aj4": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "Try it risk-free for 30 days",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1",
+            "text": "<p>Try the xPillow risk-free <strong>for 30 day</strong>s. If you are not completely satisfied with your xPillow, <strong>you may return it for a full refund</strong>.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "half",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "center",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-center"
+          }
+        },
+        "tab_eK64rh": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "Free Delivery to Your Door",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1",
+            "text": "<p><strong>Free home delivery is included. </strong>Depending on the volume of orders being processed, delivery is estimated between <strong>5 and 7 business days</strong>.<br/></p>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "half",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "center",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-center"
+          }
+        },
+        "tab_FBMGC6": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "7-day customer support",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1",
+            "text": "<p>Our team is available to answer your questions seven days a week.</p><p>You can contact us by email during the following hours: <strong>Monday to Friday from 9:00 a.m. to 12:00 p.m. and from 2:00 p.m. to 6:00 p.m., and Saturday and Sunday from 10:00 a.m. to 12:00 p.m. </strong></p><p>Feel free to get in touch with us.</p>",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "half",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "center",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-center"
+          }
+        }
+      },
+      "block_order": [
+        "tab_NUbTqq",
+        "tab_Hp7aj4",
+        "tab_eK64rh",
+        "tab_FBMGC6"
+      ],
+      "name": "Content tabs",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "container_width": "100",
+        "buttons_color_scheme": "accent-1",
+        "button_border_radius": 6,
+        "buttons_style": "outlined",
+        "active_button_animation": "moving",
+        "header_layout": "vertical",
+        "buttons_desktop_font_size": 15,
+        "desktop_full_size_buttons": false,
+        "buttons_mobile_font_size": 13,
+        "mobile_full_size_buttons": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_tabs_color": "#000000",
+        "custom_tabs_color_label": "#FFFFFF"
+      }
     }
   },
   "order": [
@@ -521,7 +929,10 @@
     "section_divider_xq9CVL",
     "shoppable_image_r4nKxf",
     "comparison_slider_dVfUBd",
+    "multicolumn_8q87mc",
+    "comparison_table_7a6yEz",
     "collapsible_content_PB3kaV",
-    "contact_form_4C9dRQ"
+    "contact_form_4C9dRQ",
+    "content_tabs_tDw8nE"
   ]
 }
