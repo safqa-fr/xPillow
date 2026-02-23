@@ -59,7 +59,7 @@
       "settings": {
         "visibility": "mobile-hidden",
         "min_desktop_height_type": "pixels",
-        "desktop_pixels_height": 600,
+        "desktop_pixels_height": 950,
         "min_mobile_height_type": "autofit",
         "mobile_pixels_height": 50,
         "transparent_header": false,
