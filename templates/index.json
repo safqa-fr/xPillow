@@ -146,7 +146,7 @@
       "settings": {
         "display_id": false,
         "visibility": "desktop-hidden",
-        "image": "shopify://shop_images/xPillow_baner.png",
+        "image": "shopify://shop_images/xPillow_baner_mobile.png",
         "image_1_visibility": "always-display",
         "image_2_visibility": "always-display",
         "image_overlay_opacity": 0,
