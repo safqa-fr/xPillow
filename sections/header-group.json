@@ -68,55 +68,36 @@
         "custom_colors_text": "#2e2a39"
       }
     },
-    "header": {
-      "type": "header",
-      "settings": {
-        "sticky_header_type": "always",
-        "show_line_separator": true,
-        "color_scheme": "background-1",
-        "logo_link": "",
-        "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "mega",
-        "highlight_active_link": true,
-        "highlighted_link_color_scheme": "accent-1",
-        "products_mega_menu_links": "",
-        "products_mega_menu_display_collection_products": true,
-        "products_mega_menu_display_collection_images": true,
-        "products_mega_menu_display_collection_images_on_mobile": true,
-        "mobile_menu_title": "Menu",
-        "secondary_menu": "",
-        "menu_color_scheme": "background-1",
-        "mobile_logo_position": "center",
-        "display_search": true,
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "horizontal_ticker_xdARtt": {
       "type": "horizontal-ticker",
       "blocks": {
+        "text_krtKPG": {
+          "type": "text",
+          "settings": {
+            "title": "❄️ Winter Sale — Up to 50% Off ❄️"
+          }
+        },
         "text_qMTKne": {
           "type": "text",
           "settings": {
-            "title": "Shrine Theme"
+            "title": "30-Day Money-Back Guarantee"
           }
         },
         "text_mYABzN": {
           "type": "text",
           "settings": {
-            "title": "Shrine Theme"
+            "title": "100% Secure Payment"
           }
         },
         "text_NUeX49": {
           "type": "text",
           "settings": {
-            "title": "Shrine Theme"
+            "title": "Free Shipping"
           }
         }
       },
       "block_order": [
+        "text_krtKPG",
         "text_qMTKne",
         "text_mYABzN",
         "text_NUeX49"
@@ -146,9 +127,35 @@
         "mobile_padding_bottom": 12,
         "desktop_padding_top": 16,
         "desktop_padding_bottom": 16,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39"
+        "custom_colors_text": "#2e2a39"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "logo_link": "",
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "mega",
+        "highlight_active_link": true,
+        "highlighted_link_color_scheme": "accent-1",
+        "products_mega_menu_links": "",
+        "products_mega_menu_display_collection_products": true,
+        "products_mega_menu_display_collection_images": true,
+        "products_mega_menu_display_collection_images_on_mobile": true,
+        "mobile_menu_title": "Menu",
+        "secondary_menu": "",
+        "menu_color_scheme": "background-1",
+        "mobile_logo_position": "center",
+        "display_search": true,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
