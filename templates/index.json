@@ -1205,6 +1205,97 @@
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff"
       }
+    },
+    "icon_bar_NAWckJ": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_ep4TgT": {
+          "type": "column",
+          "settings": {
+            "icon": "package_2",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>Global Insured Shipping</p>"
+          }
+        },
+        "column_dFXjT9": {
+          "type": "column",
+          "settings": {
+            "icon": "support_agent",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>24/7 Dedicated Support</p>"
+          }
+        },
+        "column_bh7mpR": {
+          "type": "column",
+          "settings": {
+            "icon": "replay",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>30 Night Risk-Free Trial</p>"
+          }
+        },
+        "column_c944FQ": {
+          "type": "column",
+          "settings": {
+            "icon": "lock",
+            "filled_icon": false,
+            "title": "",
+            "text": "<p>Secure & Ecrypted Chekout</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_ep4TgT",
+        "column_dFXjT9",
+        "column_bh7mpR",
+        "column_c944FQ"
+      ],
+      "name": "Icon Bar",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2E2A39"
+      }
     }
   },
   "order": [
@@ -1220,6 +1311,7 @@
     "content_tabs_tDw8nE",
     "comparison_table_7a6yEz",
     "collapsible_content_PB3kaV",
-    "contact_form_4C9dRQ"
+    "contact_form_4C9dRQ",
+    "icon_bar_NAWckJ"
   ]
 }
