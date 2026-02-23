@@ -17,7 +17,7 @@
           "settings": {
             "desktop_bg_image": "shopify://shop_images/xPillow_baner.png",
             "desktop_overlay_color": "#000000",
-            "desktop_overlay_opacity": 0,
+            "desktop_overlay_opacity": 30,
             "mobile_overlay_color": "#000000",
             "mobile_overlay_opacity": 0,
             "display_sound_btn": false,
