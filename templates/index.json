@@ -58,8 +58,8 @@
       "name": "Slideshow hero",
       "settings": {
         "visibility": "mobile-hidden",
-        "min_desktop_height_type": "pixels",
-        "desktop_pixels_height": 950,
+        "min_desktop_height_type": "100vh",
+        "desktop_pixels_height": 400,
         "min_mobile_height_type": "autofit",
         "mobile_pixels_height": 50,
         "transparent_header": false,
@@ -146,7 +146,7 @@
       "settings": {
         "display_id": false,
         "visibility": "desktop-hidden",
-        "image": "shopify://shop_images/xPillow-Hero-mobile.png",
+        "image": "shopify://shop_images/xPillow_baner.png",
         "image_1_visibility": "always-display",
         "image_2_visibility": "always-display",
         "image_overlay_opacity": 0,
