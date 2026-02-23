@@ -1215,7 +1215,7 @@
         "dots_color_scheme": "inverse",
         "desktop_full_page": true,
         "columns_desktop": 3,
-        "slider_desktop": false,
+        "slider_desktop": true,
         "per_move_desktop": 1,
         "desktop_spacing": 24,
         "desktop_side_padding": 0,
