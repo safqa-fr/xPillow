@@ -79,6 +79,22 @@
         "padding_bottom": 50
       }
     },
+    "section_divider_y4VcNp": {
+      "type": "section-divider",
+      "name": "Section divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-1",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_GHBfNA": {
       "type": "image-banner",
       "blocks": {
@@ -147,110 +163,46 @@
         "show_text_below": true
       }
     },
-    "horizontal_ticker_86g3UG": {
+    "horizontal_ticker_VNFwGU": {
       "type": "horizontal-ticker",
       "blocks": {
-        "text_with_icon_Nq6JGq": {
-          "type": "text_with_icon",
+        "image_DA3nnp": {
+          "type": "image",
           "settings": {
-            "block_width": "unlimited",
-            "block_mobile_width": 300,
-            "block_desktop_width": 400,
-            "mobile_text_size": 14,
-            "desktop_text_size": 16,
-            "alignment": "left",
-            "mobile_alignment": "left",
-            "text_color": "#f4efea",
-            "text_1": "FAST SHIPPING",
-            "text_2": "",
-            "text_3": "",
-            "icon_scale": 120,
-            "icon_color": "#ffcc00",
-            "icon_1": "local_shipping",
-            "filled_icon_1": false,
-            "icon_2": "check_circle",
-            "filled_icon_2": false,
-            "icon_3": "check_circle",
-            "filled_icon_3": false,
-            "direction": "horizontal",
-            "column_gap": 3,
-            "enable_bg": false,
-            "bg_color": "#f3f3f3",
-            "corner_radius": 40,
-            "padding": 3,
-            "border_size": 0,
-            "border_color": "#b7b7b7"
+            "image": "shopify://shop_images/Cosmopolitan.webp"
           }
         },
-        "text_with_icon_mLHY8n": {
-          "type": "text_with_icon",
+        "image_ba9tnQ": {
+          "type": "image",
           "settings": {
-            "block_width": "unlimited",
-            "block_mobile_width": 300,
-            "block_desktop_width": 400,
-            "mobile_text_size": 14,
-            "desktop_text_size": 16,
-            "alignment": "left",
-            "mobile_alignment": "left",
-            "text_color": "#f4efea",
-            "text_1": "SATISFACTION GUARANTED",
-            "text_2": "",
-            "text_3": "",
-            "icon_scale": 120,
-            "icon_color": "#ffcc00",
-            "icon_1": "check_circle",
-            "filled_icon_1": false,
-            "icon_2": "check_circle",
-            "filled_icon_2": false,
-            "icon_3": "check_circle",
-            "filled_icon_3": false,
-            "direction": "horizontal",
-            "column_gap": 3,
-            "enable_bg": false,
-            "bg_color": "#f3f3f3",
-            "corner_radius": 40,
-            "padding": 3,
-            "border_size": 0,
-            "border_color": "#b7b7b7"
+            "image": "shopify://shop_images/BuzzFeed.webp"
           }
         },
-        "text_with_icon_iCewwE": {
-          "type": "text_with_icon",
+        "image_qnjwDC": {
+          "type": "image",
           "settings": {
-            "block_width": "unlimited",
-            "block_mobile_width": 300,
-            "block_desktop_width": 400,
-            "mobile_text_size": 14,
-            "desktop_text_size": 16,
-            "alignment": "left",
-            "mobile_alignment": "left",
-            "text_color": "#f4efea",
-            "text_1": "PREMIUM QUALITY",
-            "text_2": "",
-            "text_3": "",
-            "icon_scale": 120,
-            "icon_color": "#ffcc00",
-            "icon_1": "verified_user",
-            "filled_icon_1": false,
-            "icon_2": "check_circle",
-            "filled_icon_2": false,
-            "icon_3": "check_circle",
-            "filled_icon_3": false,
-            "direction": "horizontal",
-            "column_gap": 3,
-            "enable_bg": false,
-            "bg_color": "#f3f3f3",
-            "corner_radius": 40,
-            "padding": 3,
-            "border_size": 0,
-            "border_color": "#b7b7b7"
+            "image": "shopify://shop_images/WomensHealth.webp"
+          }
+        },
+        "image_YEdGg9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MensHealth.webp"
+          }
+        },
+        "image_rpX6jC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GQ.webp"
           }
         }
       },
       "block_order": [
-        "text_with_icon_Nq6JGq",
-        "text_with_icon_mLHY8n",
-        "text_with_icon_iCewwE"
+        "image_DA3nnp",
+        "image_ba9tnQ",
+        "image_qnjwDC",
+        "image_YEdGg9",
+        "image_rpX6jC"
       ],
       "name": "Horizontal Ticker",
       "settings": {
@@ -282,72 +234,128 @@
         "custom_colors_text": "#2e2a39"
       }
     },
-    "slideshow_hero_iGnamA": {
-      "type": "slideshow-hero",
+    "section_divider_xq9CVL": {
+      "type": "section-divider",
+      "name": "Section divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": true,
+        "shape_color": "accent-1",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "shoppable_image_r4nKxf": {
+      "type": "shoppable-image",
       "blocks": {
-        "slide_mdapgb": {
-          "type": "slide",
+        "hotspot_aGYxWK": {
+          "type": "hotspot",
           "settings": {
-            "desktop_overlay_color": "#000000",
-            "desktop_overlay_opacity": 0,
-            "mobile_overlay_color": "#000000",
-            "mobile_overlay_opacity": 0,
-            "display_sound_btn": false,
-            "sound_btn_color_scheme": "inverse",
-            "heading_prefix": "",
-            "heading": "Money-Back Gurantee",
-            "title_highlight_color": "#6d071a",
-            "heading_size": "h1",
-            "heading_suffix": "",
-            "heading_prefix_size": "h5",
-            "text": "<h5>We're so confident in the quality of our product that we offer a satisfaction guarantee.</h5><h5>If you're not completely satisfied with your purchase, simply return the item within 30 days for a full refund.</h5>",
-            "button_label_1": "Rediscover Your Connection",
-            "button_link_1": "shopify://products/xpillow-sweet-spot-pillow",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "color_scheme": "background-1",
-            "full_page_width": false,
-            "content_max_width": "unlimited",
-            "content_pixels_max_width": 500,
-            "content_percentage_max_width": 50,
-            "content_vertical_position": "center",
-            "content_horizontal_position": "center",
-            "content_text_alignment": "center",
-            "mobile_content_vertical_position": "center",
-            "mobile_content_text_alignment": "center",
-            "custom_colors_text": "#000000",
-            "custom_colors_solid_button_background": "#6d071a",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "rgba(0,0,0,0)"
+            "offset_x": 54,
+            "offset_y": 50,
+            "enable_mobile_position": false,
+            "mobile_offset_x": 30,
+            "mobile_offset_y": 30,
+            "product": "xpillow-sweet-spot-pillow",
+            "text": "",
+            "alignment": "left"
           }
         }
       },
       "block_order": [
-        "slide_mdapgb"
+        "hotspot_aGYxWK"
       ],
-      "name": "Slideshow hero",
+      "name": "Shoppable image",
       "settings": {
+        "display_id": false,
         "visibility": "always-display",
-        "min_desktop_height_type": "pixels",
-        "desktop_pixels_height": 600,
-        "min_mobile_height_type": "pixels",
-        "mobile_pixels_height": 400,
-        "transparent_header": false,
-        "transparent_header_text_color": "text",
-        "transparent_header_highlighted_link_color": "background-1",
-        "transparent_header_hover_link_color": "accent-1",
-        "transparent_header_logo": "main",
-        "hide_announcement_bars": false,
-        "slider_type": "loop",
-        "drag": false,
-        "autoplay": false,
-        "autoplay_speed": 10,
-        "enable_dots": true,
-        "dots_color_scheme": "background-1",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "title": "<strong>Why Choose xPillow ?</strong>",
+        "title_highlight_color": "#6d071a",
+        "heading_size": "h2",
+        "text": "",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "atc_button_label": "",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "hide_content_on_mobile": false,
+        "mobile_content_position": "top",
+        "content_corner_radius": true,
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "image": "shopify://shop_images/xPillow_benefits_2.png",
+        "desktop_image_width": "limited",
+        "image_max_width": 900,
+        "full_page_width": false,
+        "image_corner_radius": false,
+        "hotspot_open_event": "click",
+        "hotspots_color_scheme": "inverse",
+        "display_hotspots_animation": true,
+        "hotspot_content_color_scheme": "background-1",
+        "hotspot_image_size": "small",
+        "contain_hotspot_modal": false,
+        "hotspot_modal_desktop_width": 400,
+        "hotspot_modal_mobile_width": 300,
+        "modal_heading_size": "medium",
+        "mobile_modal_position": "inline",
+        "display_image": true,
+        "display_price": true,
+        "display_discount_badge": true,
+        "modal_button_label": "Add to Cart",
+        "button_function": "atc",
+        "display_price_in_btn": false,
+        "skip_cart": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "comparison_slider_dVfUBd": {
+      "type": "comparison-slider",
+      "name": "Before & After slider",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "<strong>Designed For Real Couples</strong>",
+        "title_highlight_color": "#6d071a",
+        "heading_size": "h2",
+        "text": "<p><strong>A precise 27° incline that supports natural alignment.</strong></p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "color_scheme": "background-1",
+        "layout": "slider_second",
+        "before_label": "Before",
+        "after_label": "After",
+        "labels_color_scheme": "accent-1",
+        "line_color": "background-1",
+        "arrows_style": "circle",
+        "before_image": "shopify://shop_images/before_xpillow_2000_1200.png",
+        "after_image": "shopify://shop_images/after_xpillow_2000_1200.png",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
       }
     },
     "collapsible_content_PB3kaV": {
@@ -507,9 +515,12 @@
   },
   "order": [
     "slideshow_hero_qJaBkA",
+    "section_divider_y4VcNp",
     "image_banner_GHBfNA",
-    "horizontal_ticker_86g3UG",
-    "slideshow_hero_iGnamA",
+    "horizontal_ticker_VNFwGU",
+    "section_divider_xq9CVL",
+    "shoppable_image_r4nKxf",
+    "comparison_slider_dVfUBd",
     "collapsible_content_PB3kaV",
     "contact_form_4C9dRQ"
   ]
